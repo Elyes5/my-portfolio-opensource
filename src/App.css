@@ -44,5 +44,13 @@
     background: rgb(0, 53, 99);
   }
   body{
-    overflow:hidden;
+    overflow-x: hidden;
+  }
+  .min-h-100{
+    min-height:90vh;
+  }
+  @media only screen and (max-width: 640px) {
+    .h-44-resp{
+        height:11rem;
+    }
   }
