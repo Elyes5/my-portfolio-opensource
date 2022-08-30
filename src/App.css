@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: DMMono;
+    src: url("fonts/DMMono-Regular.ttf");
+}
+.DMMono{
+    font-family:DMMono;
+}
+.bg-neutral-800{
+    background-color: rgb(38 38 38);
+}

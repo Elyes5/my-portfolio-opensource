@@ -1,7 +1,12 @@
 import Header from './HeaderComponent'
+import PresentationComponent from './PresentationComponent'
 function Main(){
     return (
-        <Header></Header>
+        <>
+            <Header/>
+            <PresentationComponent/>
+        </>
+
     )
 }
 export default Main
