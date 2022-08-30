@@ -1,11 +1,15 @@
-import Header from './HeaderComponent'
+import HeaderComponent from './HeaderComponent'
 import PresentationComponent from './PresentationComponent'
+import AboutComponent from './AboutComponent'
 function Main(){
     return (
         <>
-            <Header/>
+            <HeaderComponent/>
             <PresentationComponent/>
+            <div className="min-w-full">
             <DividerComponent/>
+            <AboutComponent/>
+            </div>
 
         </>
 
