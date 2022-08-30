@@ -1,5 +1,6 @@
 function PresentationComponent(){
 return(
+ <div className="overflow-hidden animate-scale">
     <div className="grid md:grid-cols-2 ">
     <div className="flex flex-col items-center justify-center">
         <div className="mt-5 flex justify-between">
@@ -22,10 +23,11 @@ return(
         </div>
     </div>
     <div className="text-white md:relative">
-    <img  src='images/wave.png' alt="wave" className="min-h-full md:block hidden"/>
-    <img src='images/DeveloperBlackBg.png' alt="dev1"className="md:block hidden absolute bottom-0 min-w-100 min-h-100" />
+    <img  src='images/wave.png' alt="wave" className="min-h-full min-w-full md:block hidden"/>
+    <img src='images/DeveloperBlackBg.png' alt="dev1"className="md:block hidden absolute bottom-0" />
     <div className="md:hidden block min-w-full justify-center">
     <img src="images/DeveloperBlueBg.png" className="min-w-full"  alt="dev2"/>
+    </div>
     </div>
     </div>
     </div>
