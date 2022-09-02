@@ -1,15 +1,22 @@
 import HeaderComponent from './HeaderComponent'
 import PresentationComponent from './PresentationComponent'
 import AboutComponent from './AboutComponent'
+import ExperienceComponent from './ExperienceComponent'
+import SkillsComponent from './SkillsComponent'
+import ProjectsComponent from './ProjectsComponent'
 function Main(){
     return (
         <>
             <HeaderComponent/>
             <PresentationComponent/>
-            <div className="min-w-full">
             <DividerComponent/>
             <AboutComponent/>
-            </div>
+            <DividerComponent/>
+            <ExperienceComponent/>
+            <DividerComponent/>
+            <SkillsComponent/>
+            <DividerComponent/>
+            <ProjectsComponent/>
 
         </>
 

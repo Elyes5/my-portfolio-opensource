@@ -1,0 +1,88 @@
+[data-aos="rotate-translate"] {
+    transform: translateX(0) rotate(0);
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 2s !important;
+
+    &.aos-animate {
+      transform: translateX(45vw) rotate(360deg);
+      opacity: 1;
+    }
+    @media screen and (max-width: 1350px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(45vw) rotate(360deg);
+      }
+    }
+    @media screen and (max-width: 768px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(40vw) rotate(360deg);
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(25vw) rotate(360deg);
+      }
+    }
+    @media screen and (max-width: 300px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(20vw) rotate(360deg);
+      }
+    }
+    
+  }
+  [data-aos="rotate-translate-inverse"] {
+    transform: translateX() rotate(0);
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 2s !important;
+
+    &.aos-animate {
+      transform: translateX(-45vw) rotate(360deg);
+      opacity: 1;
+      transition-duration: 4s;
+    }
+    @media screen and (max-width: 1350px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(-40vw) rotate(360deg);
+      }
+    }
+    @media screen and (max-width: 950px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(-38vw) rotate(360deg);
+      }
+    }
+    @media screen and (max-width: 768px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(-30vw) rotate(360deg);
+      }
+    }
+    @media screen and (max-width: 450px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(-30vw) rotate(360deg);
+      }
+    }
+    @media screen and (max-width: 300px) {
+      transform: translateX(0) rotate(0);
+  
+      &.aos-animate {
+        transform: translateX(-20vw) rotate(360deg);
+      }
+    }
+  }
