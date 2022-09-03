@@ -25,11 +25,11 @@ function About(){
                 Feel free to contact me. It is just through a simple button click ! We could make a great collaboration together ! 
                 </h1>
                 <div className="lg:mt-24 md:mt-12 sm:mt-10 mt-5 lg:mb-2 md:mb-5 mb-3 flex justify-center items-center">
-                <img src="images/ArrowsLeft.svg" alt="left-arrow" className="sm:w-min-full w-1/5"/>
-                    <div className="inline-block">
+                <img src="images/ArrowsLeft.svg" alt="left-arrow" className="sm:w-min-full w-1/5" data-aos="fade-right" data-aos-delay="250" data-aos-duration="250"/>
+                    <div className="inline-block" data-aos="fade-up" data-aos-duration="250">
                         <AnchorButtonComponent link="https://github.com/Elyes5" text="Contact Me" />
                     </div>
-                    <img src="images/ArrowsRight.svg" alt="right-arrow" className="sm:w-min-full w-1/5"/>
+                    <img src="images/ArrowsRight.svg" alt="right-arrow" data-aos="fade-left" data-aos-delay="500" data-aos-duration="250" className="sm:w-min-full w-1/5"/>
                 </div>
               </div>
             </div>

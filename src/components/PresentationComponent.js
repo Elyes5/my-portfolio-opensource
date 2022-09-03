@@ -10,7 +10,7 @@ return(
         <div className="p-5">
         <div className="mb-5">
             <h1 className="DMMono md:text-4xl text-4xl text-white text-center md:leading-relaxed">
-             Hello, I am Elyes.
+             Hello, I am Elyes Saddem.
             <br></br>
             I am a <span className="text-blue-400">Software <br></br>
             engineering student</span>
