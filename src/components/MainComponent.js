@@ -4,6 +4,8 @@ import AboutComponent from './AboutComponent'
 import ExperienceComponent from './ExperienceComponent'
 import SkillsComponent from './SkillsComponent'
 import ProjectsComponent from './ProjectsComponent'
+import ContactComponent from './ContactComponent'
+import FooterComponent from './FooterComponent'
 function Main(){
     return (
         <>
@@ -17,6 +19,10 @@ function Main(){
             <SkillsComponent/>
             <DividerComponent/>
             <ProjectsComponent/>
+            <DividerComponent/>
+            <ContactComponent/>
+            <DividerComponent/>
+            <FooterComponent/>
 
         </>
 

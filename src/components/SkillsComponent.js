@@ -80,7 +80,7 @@ return (
                 </div>
             </div>
             <div className="md:indent-16">
-            <div className="w-full grid sm:grid-cols-6 grid-cols-3 sm:mb-20 md:mb-24 mb-56">
+            <div className="w-full grid sm:grid-cols-6 grid-cols-3 ">
                 { devLogos.map(devLogo =>  <DevComponent key={devLogo.icon} icon={devLogo.icon} name={devLogo.name} duration={devLogo.duration}></DevComponent>)
                
                 }

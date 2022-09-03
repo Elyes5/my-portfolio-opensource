@@ -113,3 +113,15 @@ body{
  
  border-radius:25px; 
 }
+.bg-slate-550{
+  background-color: #687c8c;
+}
+.myMap{
+  filter :grayscale(100%) invert(100%) brightness(1.4);
+}
+.mt--5{
+  margin-top:-5px;
+}
+.fade-enter{
+  transition:1s opacity !important;
+}
