@@ -76,7 +76,7 @@ return (
                     <h1 className="DMMono text-white ml-3 sm:indent-16 md:text-left text-center md:text-xl text-sm leading-relaxed">Here is my toolbelt for success.</h1>
                 </div>
                 <div className="flex-row-reverse sm:block flex">
-                <img className="sm:w-24 sm:h-24 h-12 w-12 " src="images/Brain.png"></img>
+                <img className="sm:w-24 sm:h-24 h-12 w-12 " src="images/Brain.png" alt="brain"></img>
                 </div>
             </div>
             <div className="md:indent-16">
@@ -89,9 +89,9 @@ return (
             
         </div>
         <div className="col-span-3 sm:col-span-1 relative sm:min-h-full">
-            <img src="images/Wave2.png" className="rotate-180 min-w-full min-h-full"/>
+            <img src="images/Wave2.png" className="rotate-180 min-w-full min-h-full" alt="wave2"/>
             <div className="absolute top-0 right-0 flex justify-center items-center min-w-full min-h-full">
-                <img src="images/Skills.png" className="sm:min-h-full min-w-full h-44-resp" data-aos-duration="500" data-aos="fade-up"/>
+                <img src="images/Skills.png" className="sm:min-h-full min-w-full h-44-resp" data-aos-duration="500" alt="skills" data-aos="fade-up"/>
             </div>
         </div>
     </div>

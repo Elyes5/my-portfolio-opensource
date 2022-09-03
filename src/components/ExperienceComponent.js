@@ -14,7 +14,7 @@ const ExperienceComponent = function ExperienceComponent(){
           </div>
           
           <div className="grid grid-cols-2 min-w-full overflow-x-hidden relative">
-          <img src="images/Code.svg" className="absolute sm:top-24 top-0 sm:left-24 left-4 rotate-45"/>
+          <img src="images/Code.svg" alt="code" className="absolute sm:top-24 top-0 sm:left-24 left-4 rotate-45"/>
           <div className="col-start-1">
           <div data-aos="rotate-translate" onClick={() => { 
             if (!data.image )
@@ -37,7 +37,7 @@ const ExperienceComponent = function ExperienceComponent(){
         }
     } 
           className="cursor-pointer mt-24 mb-24 w-16 h-16 text-center rounded-full bg-neutral-600  DMMono text-xl border-3 text-blue-400 flex justify-center items-center border-blue-400">
-          <img src="images/ISI.svg" />
+          <img src="images/ISI.svg" alt="ISI" />
           </div>
           </div>
           <div className="col-end-6">
@@ -58,7 +58,7 @@ const ExperienceComponent = function ExperienceComponent(){
             }
         }}
            className="cursor-pointer mt-24 mb-24 w-16 h-16 text-center rounded-full bg-neutral-600  DMMono text-xl border-3 text-blue-400 flex justify-center items-center border-blue-400">
-              <img src="images/neoXam.svg" />
+              <img src="images/neoXam.svg" alt="neoxam"/>
           </div>
 
           </div>
@@ -77,7 +77,7 @@ const ExperienceComponent = function ExperienceComponent(){
                     
                         <CSSTransition in={animate} classNames="side-fade" timeout={500}>
                             <div>
-                                <img src={data.image}/>
+                                <img src={data.image} alt={data.image}/>
                             </div>
                         </CSSTransition>
                         </div>

@@ -1,4 +1,3 @@
-import { CSSTransition } from "react-transition-group"
 function ToastComponent({show,text,handleShow}){
     return (
 <div className=" right-5 top-5 fixed">

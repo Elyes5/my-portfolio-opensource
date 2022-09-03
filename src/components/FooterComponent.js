@@ -20,10 +20,10 @@ function FooterComponent(){
                 <h2 className="mb-6 text-sm font-bold text-blue-400 uppercase dark:text-white">CONTACT</h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                     <li className="mb-4 text-center sm:text-left">
-                        <p className="hover:underline text-white sm:text-md md:text-lg text-xs"><img src="images/phone.svg" className="inline-block" height="20" width="20"/> (+216) 58 079 399</p>
+                        <p className="hover:underline text-white sm:text-md md:text-lg text-xs"><img src="images/phone.svg" alt="phone" className="inline-block" height="20" width="20"/> (+216) 58 079 399</p>
                     </li>
                     <li>
-                        <p className="hover:underline text-white sm:text-md md:text-lg text-xs"><img src="images/mail.svg" className="inline-block align-middle" height="20" width="20"/> saddemelyes67@gmail.com</p>
+                        <p className="hover:underline text-white sm:text-md md:text-lg text-xs"><img src="images/mail.svg" alt="mail" className="inline-block align-middle" height="20" width="20"/> saddemelyes67@gmail.com</p>
                     </li>
                 </ul>
             </div>
@@ -31,7 +31,7 @@ function FooterComponent(){
                 <h2 className="mb-6 text-sm font-bold text-blue-400 uppercase dark:text-white md:text-xl te">CERTIFICATIONS</h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                     <li className="mb-4">
-                        <a href="https://www.credly.com/users/elyes-saddem/badges" className="hover:underline flex items-center text-white sm:text-md md:text-lg text-xs"><img src="images/IBM.svg" className="inline-block"/> IBM</a>
+                        <a href="https://www.credly.com/users/elyes-saddem/badges" className="hover:underline flex items-center text-white sm:text-md md:text-lg text-xs"><img src="images/IBM.svg" alt="ibm" className="inline-block"/> IBM</a>
                     </li>
                 </ul>
             </div>

@@ -39,7 +39,7 @@ function ProjectsComponent(){
                 <div className="flex">
 
                     <div className="relative sm:col-span-1 col-span-1" >
-                    <img src="images/Wave4.png" className="min-w-full min-h-full"/>
+                    <img src="images/Wave4.png" alt="wave4" className="min-w-full min-h-full"/>
                         <div className="absolute left-0 top-0 min-h-full min-w-full flex justify-center items-center">
                             <img data-aos-duration="500" data-aos="fade-up" src="images/Projects.png" alt="projects"  className="min-w-full sm:h-min-full h-44-resp"/>
                         </div>
@@ -52,7 +52,7 @@ function ProjectsComponent(){
                 <br></br>
                 Everything is available on my GitHub !
                 </h1>
-                <img src="images/Projects.svg" className="sm:absolute  sm:bottom-0 sm:left-0 w-9 sm:w-16  rotate-12"/>
+                <img src="images/Projects.svg" alt="projectssvg" className="sm:absolute  sm:bottom-0 sm:left-0 w-9 sm:w-16  rotate-12"/>
                 <div className=" mt-10 lg:mb-2 md:mb-5 mb-3 flex justify-center">
                     <div className="inline-block" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
                         <AnchorButtonComponent link="https://github.com/Elyes5" text="Check My GitHub" icon="devicon-github-original" />

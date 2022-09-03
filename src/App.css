@@ -122,6 +122,3 @@ body{
 .mt--5{
   margin-top:-5px;
 }
-.fade-enter{
-  transition:1s opacity !important;
-}
