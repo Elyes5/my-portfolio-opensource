@@ -42,7 +42,7 @@ return (
         <div className="grid-cols-2 md:grid-cols-3 grid md:ml-16 mb-24">
             <div data-aos="fade-right" duration="400"  className="md:col-span-2 col-span-2 md:block flex justify-center md:mr-10 ml-10 mr-10 md:ml-0">
                 <div className="block rounded-2xl overflow-hidden">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.210721381888!2d10.186719815146466!3d36.8613746799361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cb4b0ecda8a3%3A0xc561ba5428c31de3!2sISI%20Ariana!5e0!3m2!1sfr!2stn!4v1662200578713!5m2!1sfr!2stn" width="1000" height="550"  className="myMap" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.210721381888!2d10.186719815146466!3d36.8613746799361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cb4b0ecda8a3%3A0xc561ba5428c31de3!2sISI%20Ariana!5e0!3m2!1sfr!2stn!4v1662200578713!5m2!1sfr!2stn" width="1000" height="550"  className="myMap" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div className="md:col-span-1 col-span-2 md:mt-0 mt-5" data-aos="fade-left" duration="400">
