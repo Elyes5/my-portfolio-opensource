@@ -45,10 +45,10 @@ return (
                 <iframe title="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.210721381888!2d10.186719815146466!3d36.8613746799361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cb4b0ecda8a3%3A0xc561ba5428c31de3!2sISI%20Ariana!5e0!3m2!1sfr!2stn!4v1662200578713!5m2!1sfr!2stn" width="1000" height="550"  className="myMap" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <div className="md:col-span-1 col-span-2 md:mt-0 mt-5" data-aos="fade-left" duration="400">
+            <div className="md:col-span-1 col-span-2 md:mt-0 mt-5" data-aos="fade" duration="400">
                 <div className="flex justify-center flex-col items-center gap-y-3 indent">
                     <h3 className="DMMono text-blue-400 md:text-md sm:text-2xl text-xl">Let's get in touch</h3>
-                    <div className="border-2 border-white p-10 rounded-md">
+                    <div className="border-2 border-white p-5 rounded-md">
                         <form onSubmit={e => e.preventDefault()}>
                             <InputComponent name="Full Name" placeholder="Enter your full name" changeValue={(event) => setData({...data,fullName:event.target.value})} formData={data.fullName}/>
                             {(data.fullName.trim().length === 0 && clicked) && (
