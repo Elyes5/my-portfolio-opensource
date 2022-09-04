@@ -45,7 +45,8 @@ const ExperienceComponent = function ExperienceComponent(){
             if (!data.image )
            {
             setAnimate(true);
-            setData({...data,image:'images/neoXam.svg',title:'Web Development Intern at NeoXam'});
+            setData({...data,image:'images/neoXam.svg',title:'Web Development Intern at NeoXam',descriptions:
+            ['-Development of a platform that evaluates the skills and the levels of the NeoXam job candidates through dynamic timed tests','-Creation of RESTful APIs with Spring Boot that would be consumed by the Vue.js client','-JWT Authentication','-Front-end and back-end validation','-Usage of the Spring Boot Websockets API to make the real time process for the tests','-Creation of a responsive design with Vuejs and Bootstrap 5']});
             }
             else if (data.image !== 'images/neoXam.svg')
             {
