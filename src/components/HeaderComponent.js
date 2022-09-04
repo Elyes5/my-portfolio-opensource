@@ -2,19 +2,19 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#', current: false },
-  { name: 'Experiences', href: '#', current: false },
-  { name: 'Skills', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Home', current: true, },
+  { name: 'About', current: false },
+  { name: 'Experiences', current: false },
+  { name: 'Skills', current: false },
+  { name: 'Projects', current: false },
+  { name: 'Contact', current: false },
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Example(props) {
   return (
     <Disclosure as="nav" className="bg-neutral-900">
       {({ open }) => (
@@ -47,19 +47,22 @@ export default function Example() {
                 </div>
                 <div className="hidden md:block md:ml-6 flex-1 md:mr-12">
                   <div className="flex space-x-5 justify-end">
+                    <ul>
                     {navigation.map((item) => (
-                      <a
+                      <li
                         key={item.name}
-                        href={item.href}
+                        onClick={() => props.scrollToSection(props[item.name])}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium DMMono'
+                          'px-3 py-2 rounded-md text-sm font-medium DMMono inline cursor-pointer'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </li>
+                      
                     ))}
+                    </ul>
                   </div>
                 </div>
               </div>

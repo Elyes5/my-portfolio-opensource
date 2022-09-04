@@ -3,7 +3,7 @@ import AnchorButtonComponent from "./AnchorButtonComponent";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react";
-function About(){
+function About({contact,scrollToSection}){
     useEffect(() =>{
         Aos.init();
         window.addEventListener('load', Aos.refresh)
@@ -27,7 +27,7 @@ function About(){
                 <div className="lg:mt-24 md:mt-12 sm:mt-10 mt-5 lg:mb-2 md:mb-5 mb-3 flex justify-center items-center">
                 <img src="images/ArrowsLeft.svg" alt="left-arrow" className="sm:w-min-full w-1/5" data-aos="fade-right" data-aos-delay="250" data-aos-duration="250"/>
                     <div className="inline-block" data-aos="fade-up" data-aos-duration="250">
-                        <AnchorButtonComponent link="https://github.com/Elyes5" text="Contact Me" />
+                        <AnchorButtonComponent contact={contact} scrollToSection={el => scrollToSection(el)} text="Contact Me" />
                     </div>
                     <img src="images/ArrowsRight.svg" alt="right-arrow" data-aos="fade-left" data-aos-delay="500" data-aos-duration="250" className="sm:w-min-full w-1/5"/>
                 </div>

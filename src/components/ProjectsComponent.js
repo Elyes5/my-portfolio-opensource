@@ -1,5 +1,4 @@
 import TitleComponent from "./TitleComponent";
-import AnchorButtonComponent from "./AnchorButtonComponent";
 import ProjectComponent from "./ProjectComponent";
 function ProjectsComponent(){
     const projectsData = [
@@ -55,7 +54,9 @@ function ProjectsComponent(){
                 <img src="images/Projects.svg" alt="projectssvg" className="sm:absolute  sm:bottom-0 sm:left-0 w-9 sm:w-16  rotate-12"/>
                 <div className=" mt-10 lg:mb-2 md:mb-5 mb-3 flex justify-center">
                     <div className="inline-block" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
-                        <AnchorButtonComponent link="https://github.com/Elyes5" text="Check My GitHub" icon="devicon-github-original" />
+                    <a href="https://github.com/Elyes5" className="inline-block md:p-5 p-3 border-2 border-blue-500 text-blue-500 underline-none rounded-lg hover:bg-blue-500 hover:text-neutral-800 ">
+                     <i className={'devicon-github-original md:text-2xl  text-md'}></i> Check my GitHub
+                    </a>
                     </div>
                 </div>
               </div>

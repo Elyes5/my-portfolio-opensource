@@ -9,10 +9,10 @@ function FooterComponent(){
                 <h2 className="mb-6 text-sm font-bold uppercase text-blue-400">Social</h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                     <li className="mb-4">
-                        <a href="https://www.linkedin.com/in/elyes-saddem-249787224/" className="hover:underline text-white sm:text-md md:text-lg text-xs"><i class="devicon-linkedin-plain"></i> Linkedin</a>
+                        <a href="https://www.linkedin.com/in/elyes-saddem-249787224/" className="hover:underline text-white sm:text-md md:text-lg text-xs"><i className="devicon-linkedin-plain"></i> Linkedin</a>
                     </li>
                     <li>
-                        <a href="https://www.github.com/Elyes5" className="hover:underline text-white sm:text-md md:text-lg text-xs"><i class="devicon-github-plain"></i> GitHub</a>
+                        <a href="https://www.github.com/Elyes5" className="hover:underline text-white sm:text-md md:text-lg text-xs"><i className="devicon-github-plain"></i> GitHub</a>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@ function FooterComponent(){
     </div>
     <div className="sm:flex sm:items-center sm:justify-between">
     <div className="flex justify-center items-center min-w-full flex-col">
-        <span className="text-sm mb-3 text-white DMMono flex items-center gap-x-2 font-bold">CREATED WITH <i class="devicon-react-original colored text-2xl"></i>&nbsp;<i class="devicon-tailwindcss-plain colored text-2xl"></i>&nbsp;<i class="devicon-spring-plain colored text-2xl"></i></span>
+        <span className="text-sm mb-3 text-white DMMono flex items-center gap-x-2 font-bold">CREATED WITH <i className="devicon-react-original colored text-2xl"></i>&nbsp;<i className="devicon-tailwindcss-plain colored text-2xl"></i>&nbsp;<i className="devicon-spring-plain colored text-2xl"></i></span>
         <span className="text-sm text-white DMMono">© 2022 <a href="https://elyessaddem.me/" className="hover:underline">Made by <span className="text-bold text-blue-400">Elyes Saddem</span></a>. All Rights Reserved.</span>
     </div>
     </div>
