@@ -6,7 +6,7 @@ const ExperienceComponent = function ExperienceComponent(){
     const [data,setData]=useState({image : null, title : null , descriptions : null,date : null});
     const [animate,setAnimate] = useState(false)
     return (
-        <div>
+        <div id="Experiences">
           <TitleComponent title="Experiences"/>
           <div className="flex-col flex justify-center items-center mb-12 sm:text-4xl text-xl text-white">
             <h1 className="DMMono">Choose an experience !</h1>

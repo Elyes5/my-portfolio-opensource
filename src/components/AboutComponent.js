@@ -9,7 +9,7 @@ function About({contact,scrollToSection}){
         window.addEventListener('load', Aos.refresh)
     })
     return (
-        <>
+        <div id="About">
             <TitleComponent title="About Me"></TitleComponent>
             <div className = "grid grid-cols-8 sm:grid-cols-4 text-center">
               <div className="relative sm:col-span-1 col-span-2" >
@@ -33,7 +33,7 @@ function About({contact,scrollToSection}){
                 </div>
               </div>
             </div>
-        </>
+        </div>
     )
 }
 export default About;

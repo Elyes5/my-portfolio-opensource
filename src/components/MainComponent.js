@@ -6,48 +6,26 @@ import SkillsComponent from './SkillsComponent'
 import ProjectsComponent from './ProjectsComponent'
 import ContactComponent from './ContactComponent'
 import FooterComponent from './FooterComponent'
-import {useRef} from 'react';
+import { BrowserRouter } from 'react-router-dom'
 function Main(){
-    const presentation = useRef(null);
-    const about = useRef(null);
-    const experiences = useRef(null);
-    const skills = useRef(null);
-    const projects = useRef(null);
-    const contact = useRef(null);
-    const scrollToSection = (elementRef) => {
-        window.scrollTo({
-            top : elementRef.current.offsetTop,
-            behavior : "smooth",
-        })
-    }
     return (
         <>
-            <HeaderComponent Home={presentation} About={about} Experiences={experiences} Skills={skills} Projects={projects} Contact={contact} scrollToSection={el => scrollToSection(el)}/>
-            <div id="route-presentation" ref={presentation}>
+          <BrowserRouter>
+            <HeaderComponent/>
             <PresentationComponent/>
-            </div>
             <DividerComponent/>
-            <div id="route-presentation" ref={about}>
-                <AboutComponent contact={contact} scrollToSection={el => scrollToSection(el)}/>
-            </div>
+            <AboutComponent/>
             <DividerComponent/>
-            <div id="route-experience" ref={experiences}>
-                <ExperienceComponent />
-            </div>
+            <ExperienceComponent />
             <DividerComponent/>
-            <div id="route-skills" ref={skills}>
-                <SkillsComponent/>
-            </div>
+            <SkillsComponent/>
             <DividerComponent/>
-            <div id="route-projects" ref={projects}>
-                <ProjectsComponent/>
-            </div>
+            <ProjectsComponent/>
             <DividerComponent/>
-            <div id="route-contact" ref={contact}>
-                <ContactComponent/>
-            </div>
+            <ContactComponent/>
             <DividerComponent/>
             <FooterComponent/>
+          </BrowserRouter>
 
         </>
 

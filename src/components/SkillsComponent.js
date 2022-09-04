@@ -66,7 +66,7 @@ const devLogos = [
     },
 ]
 return (
-<div>
+<div id="Skills">
     <TitleComponent title="Skills" ></TitleComponent>
     <div className="grid grid-cols-9 sm:grid-cols-4">
         <div className="col-span-6 sm:col-span-3">

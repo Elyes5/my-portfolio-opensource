@@ -34,7 +34,7 @@ function ContactComponent(){
         }
     }
 return (
-    <div>
+    <section id="Contact">
         <CSSTransition in={show} classNames="vertical-fade" timeout={4500}>
         <ToastComponent show={show} text={text} handleShow={() => setShow(false)}/>
         </CSSTransition>
@@ -81,7 +81,7 @@ return (
             </div>
         </div>
         
-    </div>
+    </section>
 )
 }
 export default ContactComponent

@@ -31,7 +31,7 @@ function ProjectsComponent(){
     ]
     return (
         <>
-        <div>
+        <div id="Projects">
                 <TitleComponent title="Projects"></TitleComponent>
 
             <div className = "grid grid-cols-3 sm:grid-cols-4">
