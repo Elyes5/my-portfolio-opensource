@@ -1,6 +1,6 @@
 function PresentationComponent(){
 return(
- <div className="animate-scale" id="Home">
+ <div className="animate-scale overflow-x-hidden" id="Home">
     <div className="grid md:grid-cols-2 min-h-100">
     <div className="flex flex-col items-center justify-center">
         <div className="mt-5 flex justify-between">
