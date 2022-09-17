@@ -1,6 +1,6 @@
 function ToastComponent({show,text,handleShow}){
     return (
-<div className=" right-5 top-5 fixed">
+<div className=" right-5 top-5 fixed z-50">
 { show &&
 <div className="max-w-xs bg-green-200 border rounded-md shadow-lg dark:bg-gray-800 dark:border-gray-700 fade-enter" role="alert">
   <div className="flex p-4 relative">
