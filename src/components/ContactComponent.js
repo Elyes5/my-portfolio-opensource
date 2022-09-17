@@ -18,9 +18,7 @@ function ContactComponent(){
         setProcess(true);
         if (data.fullName.trim().length > 0 && data.subject.trim().length > 0 && data.content.trim().length > 0)
         {   const sdata = JSON.stringify(data)
-            setData({
-                ...data,fullName :'',subject:'',content:'',
-            })
+
             setClicked(false);
             fetch('https://springboot-email-sender.herokuapp.com/api/v1/sendmail', {
                  method: 'POST',
@@ -29,6 +27,9 @@ function ContactComponent(){
 }).then(response => {return response.json()})
             .then(data => {
                 console.log(data);
+                setData({
+                    ...data,fullName :'',subject:'',content:'',
+                })
                 setProcess(false); 
                 setText(data.message);
                 setShow(true);
