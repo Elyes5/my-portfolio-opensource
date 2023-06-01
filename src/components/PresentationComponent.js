@@ -25,11 +25,11 @@ return(
     <div className="text-white md:relative md:block hidden">
     <img  src='images/wave.png' alt="wave" className="min-h-full md:block hidden"/>
     <div className="md:absolute top-0 left-0 md:min-w-full md:min-h-full md:flex md:justify-center md:items-center hidden">
-    <img src='images/DeveloperBlackBg.png' alt="dev1"className="md:block hidden absolute bottom-0" />
+    <img src='images/DeveloperBlackBg.png'  width="500" height="500" alt="dev1" className="md:block hidden absolute bottom-0" />
     </div>
     </div>
-    <div className="md:hidden block justify-center mb-10">
-    <img src="images/DeveloperBlueBg.png"  className="min-w-full" alt="dev2"/>
+    <div className="md:hidden flex justify-center mb-10">
+    <img src="images/DeveloperBlueBg.png"  width="300" height="300"  alt="dev2"/>
     </div>
     </div>
     </div>

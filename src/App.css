@@ -11,6 +11,9 @@
 .bg-neutral-800{
     background-color: rgb(38 38 38);
 }
+.fill-red{
+  fill:red;
+}
 .animate-scale {
     -webkit-animation: scaleDownIn 1.5s cubic-bezier(.87,0,.13,1);
     animation: scaleDownIn 1.5s cubic-bezier(.87,0,.13,1);

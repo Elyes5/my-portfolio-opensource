@@ -91,7 +91,7 @@ return (
         <div className="col-span-3 sm:col-span-1 relative sm:min-h-full">
             <img src="images/Wave2.png" className="rotate-180 min-w-full min-h-full" alt="wave2"/>
             <div className="absolute top-0 right-0 flex justify-center items-center min-w-full min-h-full">
-                <img src="images/Skills.png" className="sm:min-h-full min-w-full h-44-resp" data-aos-duration="500" alt="skills" data-aos="fade-up"/>
+                <img src="images/Skills.png" className="sm:min-h-full" width="300" data-aos-duration="500" alt="skills" data-aos="fade-up"/>
             </div>
         </div>
     </div>

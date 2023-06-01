@@ -22,7 +22,7 @@ function ContactComponent(){
                 ...data,fullName :'',subject:'',content:'',
             })
             setClicked(false);
-            fetch('https://springboot-email-sender.herokuapp.com/api/v1/sendmail', {
+            fetch('https://springboot-email-sender.onrender.com/api/v1/sendmail', {
                  method: 'POST',
                 headers: {'content-type': 'application/json'},
                 body: sdata
