@@ -1,18 +1,18 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Disclosure } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { HashLink as Link } from 'react-router-hash-link'
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { HashLink as Link } from "react-router-hash-link";
 const navigation = [
-  { name: 'Home', current: true, },
-  { name: 'About', current: false },
-  { name: 'Experiences', current: false },
-  { name: 'Skills', current: false },
-  { name: 'Projects', current: false },
-  { name: 'Contact', current: false },
-]
+  { name: "Home", current: true },
+  { name: "About", current: false },
+  { name: "Experiences", current: false },
+  { name: "Skills", current: false },
+  { name: "Projects", current: false },
+  { name: "Contact", current: false },
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Example() {
@@ -49,23 +49,24 @@ export default function Example() {
                 <div className="hidden md:block md:ml-6 flex-1 md:mr-12">
                   <div className="flex space-x-5 justify-end">
                     {navigation.map((item) => (
-                      <Link to={"#" + item.name}
+                      <Link
+                        to={"#" + item.name}
                         smooth
                         key={item.name}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium DMMono inline cursor-pointer'
+                          item.current
+                            ? "bg-gray-900 text-white"
+                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                          "px-3 py-2 rounded-md text-sm font-medium DMMono inline cursor-pointer",
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
                       </Link>
-                      
                     ))}
                   </div>
                 </div>
               </div>
-            
             </div>
           </div>
 
@@ -77,10 +78,12 @@ export default function Example() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block px-3 py-2 rounded-md text-base font-medium'
+                    item.current
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                    "block px-3 py-2 rounded-md text-base font-medium",
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
@@ -90,5 +93,5 @@ export default function Example() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }
