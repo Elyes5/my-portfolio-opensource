@@ -409,7 +409,7 @@ function SkillsComponent() {
                         }}
                     >
                         <img
-                            src="../../public/images/Skills.png"
+                            src="images/Skills.png"
                             className="lg:min-h-full filter drop-shadow-2xl max-w-xs lg:max-w-none"
                             width="300"
                             alt="skills"

@@ -96,7 +96,7 @@ function FooterComponent() {
                                         className="flex items-center justify-center md:justify-start gap-3 text-neutral-300 hover:text-white transition-all duration-300 group/link p-3 rounded-xl hover:bg-neutral-800/30 backdrop-blur-sm"
                                     >
                                         <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-900/50 to-blue-800/50 flex items-center justify-center group-hover/link:scale-110 transition-transform duration-300">
-                                            <img src="../../public/images/IBM.svg" alt="ibm" className="w-5 h-5" />
+                                            <img src="images/IBM.svg" alt="ibm" className="w-5 h-5" />
                                         </div>
                                         <span className="font-medium text-base">IBM</span>
                                         <div className="w-0 group-hover/link:w-2 h-0.5 bg-neutral-400 transition-all duration-300 ml-auto" />
@@ -108,7 +108,7 @@ function FooterComponent() {
                                         className="flex items-center justify-center md:justify-start gap-3 text-neutral-300 hover:text-white transition-all duration-300 group/link p-3 rounded-xl hover:bg-neutral-800/30 backdrop-blur-sm"
                                     >
                                         <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-900/50 to-orange-800/50 flex items-center justify-center group-hover/link:scale-110 transition-transform duration-300">
-                                            <img src="../../public/images/AWS.svg" alt="aws" className="w-5 h-5" />
+                                            <img src="images/AWS.svg" alt="aws" className="w-5 h-5" />
                                         </div>
                                         <span className="font-medium text-base">AWS</span>
                                         <div className="w-0 group-hover/link:w-2 h-0.5 bg-neutral-400 transition-all duration-300 ml-auto" />
@@ -120,7 +120,7 @@ function FooterComponent() {
                                         className="flex items-center justify-center md:justify-start gap-3 text-neutral-300 hover:text-white transition-all duration-300 group/link p-3 rounded-xl hover:bg-neutral-800/30 backdrop-blur-sm"
                                     >
                                         <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-900/50 to-blue-700/50 flex items-center justify-center group-hover/link:scale-110 transition-transform duration-300">
-                                            <img src="../../public/images/azure.svg" alt="azure" className="w-5 h-5" />
+                                            <img src="images/azure.svg" alt="azure" className="w-5 h-5" />
                                         </div>
                                         <span className="font-medium text-base">Azure</span>
                                         <div className="w-0 group-hover/link:w-2 h-0.5 bg-neutral-400 transition-all duration-300 ml-auto" />

@@ -354,7 +354,7 @@ function PresentationComponent() {
                 {/* Right Column - Desktop with Enhanced Wave */}
                 <div className="text-white md:relative md:block hidden">
                     <img
-                        src="../../public/images/wave.png"
+                        src="images/wave.png"
                         className="min-h-full md:block hidden"
                     />
                     <div className="md:absolute top-0 left-0 md:min-w-full md:min-h-full md:flex md:justify-center md:items-center hidden">
